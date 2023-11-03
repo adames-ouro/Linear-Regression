@@ -27,7 +27,7 @@ To find the best-fitting line that minimizes the sum of squared differences (res
 ### Steps for the algorithm
 
 **Step 1: Model Representation**  
-Choose the form of the function (e.g., \(y = \beta_0 + \beta_1x_1 + ... + \beta_nx_n\)).
+Choose the form of the function.
 
 **Step 2: Define the Objective Function**  
 Sum of squared differences between observed and predicted values (RSS - Residual Sum of Squares).
