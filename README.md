@@ -123,9 +123,11 @@ A simple feed-forward neural network can be represented as:
 $$
 \mathbf{a}^{[l]} = \mathbf{z}^{[l]} + \mathbf{b}^{[l]}
 $$
+
 $$
 \mathbf{z}^{[l]} = \mathbf{W}^{[l]} \mathbf{a}^{[l-1]}
 $$
+
 $$
 \mathbf{a}^{[l]} = g^{[l]}(\mathbf{z}^{[l]})
 $$
