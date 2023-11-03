@@ -148,20 +148,17 @@ Where:
 PyTorch supports a variety of activation functions, some of which include:
 
 1. **Sigmoid**:
+   
     $$ \sigma(z) = \frac{1}{1 + e^{-z}} $$
 
 2. **Tanh**:
+   
     $$ \tanh(z) = \frac{e^z - e^{-z}}{e^z + e^{-z}} $$
 
 3. **ReLU**:
+   
     $$ \text{ReLU}(z) = \max(0, z) $$
 
-4. **Leaky ReLU**:
-    $$ \text{Leaky ReLU}(z) = \begin{cases} 
-      \alpha z & \text{if } z < 0 \\
-      z & \text{otherwise } 
-   \end{cases}
-   $$
 
 ---
 
