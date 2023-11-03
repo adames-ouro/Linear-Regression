@@ -18,7 +18,7 @@ $$ \hat{Y} =  \hat{\beta} * X $$
 
  $$\hat{{\beta}} = Inverse((X^T . X)). X^T . Y $$
 
-- The intercept is in the same position as the column of 1s in the ***X*** matrix, the rest of the values are slopes for ***Xi***
+- The intercept is in the same position as the column of 1s in the ***X*** matrix, the rest of the values are slopes for ***X***<sub>i</sub>
 
 
 ## Installation
