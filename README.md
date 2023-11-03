@@ -16,7 +16,7 @@ $$ \hat{Y} =  \hat{\beta} * X $$
 
 - The coefficients $\hat{\beta_{i}}$ can be calculated as:
 
-$$ \hat{{\beta}} = ((X^T . X))^(-1) . X^T . Y  $$
+$$ \hat{{\beta}} = ((X^T . X))<sup>-1</sup> . X^T . Y  $$
 
 - The intercept is in the same position as the column of 1s in the ***X*** matrix, the rest of the values are slopes for ***Xi***
 
