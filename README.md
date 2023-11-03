@@ -148,17 +148,16 @@ Where:
 PyTorch supports a variety of activation functions, some of which include:
 
 1. **Sigmoid**:
-   
-    $ \sigma(z) = \frac{1}{1 + e^{-z}} $
+   - Formula: 
+     ![Sigmoid Formula](https://latex.codecogs.com/svg.latex?\sigma(z)%20=%20\frac{1}{1%20+%20e^{-z}})
 
 2. **Tanh**:
-   
-    $ \tanh(z) = \frac{e^z - e^{-z}}{e^z + e^{-z}} $
+   - Formula: 
+     ![Tanh Formula](https://latex.codecogs.com/svg.latex?\tanh(z)%20=%20\frac{e^z%20-%20e^{-z}}{e^z%20+%20e^{-z}})
 
 3. **ReLU**:
-   
-    $ \text{ReLU}(z) = \max(0, z) $
-
+   - Formula: 
+     ![ReLU Formula](https://latex.codecogs.com/svg.latex?\text{ReLU}(z)%20=%20\max(0,%20z))
 
 ---
 
