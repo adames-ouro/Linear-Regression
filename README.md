@@ -163,10 +163,12 @@ PyTorch supports a variety of activation functions, some of which include:
 Depending on the task (regression, classification, etc.), different loss functions can be used:
 
 1. **Mean Squared Error (for regression)**:
-    $$ \text{MSE} = \frac{1}{N} \sum_{i=1}^{N} (y_i - \hat{y}_i)^2 $$
+   - Formula: 
+     ![Mean Squared Error Formula](https://latex.codecogs.com/svg.latex?\bg_black&space;\color{white}&space;\text{MSE}%20=%20\frac{1}{N}%20\sum_{i=1}^{N}%20(y_i%20-%20\hat{y}_i)^2)
 
 2. **Cross Entropy Loss (for classification)**:
-    $$ \text{CrossEntropy}(y, \hat{y}) = -\sum_{i} y_i \log(\hat{y}_i) $$
+   - Formula: 
+     ![Cross Entropy Loss Formula](https://latex.codecogs.com/svg.latex?\bg_black&space;\color{white}&space;\text{CrossEntropy}(y,%20\hat{y})%20=-\sum_{i}%20y_i%20\log(\hat{y}_i))
 
 ---
 
