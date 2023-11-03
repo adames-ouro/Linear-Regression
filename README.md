@@ -12,7 +12,6 @@
 
 ## Ordinary Least Squares (OLS)
 
----
 
 ### Goal
 To find the best-fitting line that minimizes the sum of squared differences (residuals) between observed and predicted values.
@@ -81,7 +80,6 @@ $$ \hat{Y} =  \hat{\beta} * X $$
 
 ## Neural Network Representation
 
----
 
 ### Goal
 To leverage PyTorch's neural network framework to implement and train a linear regression model.
