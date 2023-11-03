@@ -108,8 +108,6 @@ Use the trained model to make predictions and evaluate them against known target
 **Step 5: Model Deployment**
 With a trained model, you can save and load the model for future predictions on new data.
 
-> **Note:** While Linear Regression is powerful and simple, it's important to check the underlying assumptions and understand its limitations when analyzing data.
-
 # Neural Networks with PyTorch
 
 ---
@@ -163,12 +161,10 @@ PyTorch supports a variety of activation functions, some of which include:
 Depending on the task (regression, classification, etc.), different loss functions can be used:
 
 1. **Mean Squared Error (for regression)**:
-   - Formula: 
-     ![Mean Squared Error Formula](https://latex.codecogs.com/svg.latex?\bg_black&space;\color{white}&space;\text{MSE}%20=%20\frac{1}{N}%20\sum_{i=1}^{N}%20(y_i%20-%20\hat{y}_i)^2)
+   - ![Mean Squared Error Formula](https://latex.codecogs.com/svg.latex?\bg_black&space;\color{white}&space;\text{MSE}%20=%20\frac{1}{N}%20\sum_{i=1}^{N}%20(y_i%20-%20\hat{y}_i)^2)
 
 2. **Cross Entropy Loss (for classification)**:
-   - Formula: 
-     ![Cross Entropy Loss Formula](https://latex.codecogs.com/svg.latex?\bg_black&space;\color{white}&space;\text{CrossEntropy}(y,%20\hat{y})%20=-\sum_{i}%20y_i%20\log(\hat{y}_i))
+   - ![Cross Entropy Loss Formula](https://latex.codecogs.com/svg.latex?\bg_black&space;\color{white}&space;\text{CrossEntropy}(y,%20\hat{y})%20=-\sum_{i}%20y_i%20\log(\hat{y}_i))
 
 ---
 
@@ -177,7 +173,8 @@ Depending on the task (regression, classification, etc.), different loss functio
 Gradient descent and its variants are used to optimize the weights of the network:
 
 1. **Gradient Descent**:
-    $$ \mathbf{W} = \mathbf{W} - \alpha \nabla_{\mathbf{W}} J(\mathbf{W}, \mathbf{b}) $$
+    - ![Formula](https://latex.codecogs.com/svg.latex?\bg_black&space;\color{white}&space;\mathbf{W}%20=%20\mathbf{W}%20-%20\alpha%20\nabla_{\mathbf{W}}%20J(\mathbf{W},%20\mathbf{b}))
+
 
 2. **Stochastic Gradient Descent (SGD)**:
     Update weights after each training example.
