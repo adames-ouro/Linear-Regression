@@ -2,7 +2,7 @@
 
 - A basic linear regression is a statistical model that represent the relationship between predictor variables ***X***<sub>i</sub> with a response variable ***Y***. 
 
-- The model assumes a linear relation where the intercept of the line is usually represented by ***$\beta$<sub>0</sub>*** and the slope of the variables by a  coefficient ***$\beta$<sub>i</sub>*** . 
+- The model assumes a linear relation where the intercept of the line is usually represented by ***$\beta_{0}$*** and the slope of the variables by a  coefficient ***$\beta$<sub>i</sub>*** . 
 
 $$ Y = \beta_{0} + \beta_{1} * X_{1} + ... +\beta_{n} * X_{n} + \varepsilon $$
 
