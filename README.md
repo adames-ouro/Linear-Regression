@@ -1,4 +1,50 @@
-### Linear Regression
+# Linear Regression
+
+---
+
+### Why Linear Regression?
+- Simple and interpretable model for understanding relationships between features and target variables.
+- Requires relatively less computational power.
+- Provides a foundation for many advanced modeling techniques.
+- Can be extended to handle non-linear relationships and interactions.
+
+---
+
+## Ordinary Least Squares (OLS)
+
+---
+
+### Goal
+To find the best-fitting line that minimizes the sum of squared differences (residuals) between observed and predicted values.
+
+### Overview
+- Supervised learning method used for both continuous and categorical variables.
+- Assumes a linear relationship between dependent and independent variables.
+- Involves Hyperparameters when regularized (like in Ridge or Lasso regression).
+- Sensitive to outliers.
+- Requires assumption checks: linearity, independence, homoscedasticity, and normality.
+
+### Steps for the algorithm
+
+**Step 1: Model Representation**  
+Choose the form of the function (e.g., \(y = \beta_0 + \beta_1x_1 + ... + \beta_nx_n\)).
+
+**Step 2: Define the Objective Function**  
+Sum of squared differences between observed and predicted values (RSS - Residual Sum of Squares).
+
+**Step 3: Minimize the Objective Function**  
+Use calculus (for simple linear regression) or numerical methods (for multiple regression) to find the \(\beta\) values that minimize RSS.
+
+**Step 4: Model Evaluation**  
+Use metrics such as R-squared, RMSE, etc. to evaluate the fit of the model.
+
+**Step 5: Prediction**  
+Use the fitted model to make predictions on new data.
+
+> **Note:** While Linear Regression is powerful and simple, it's important to check the underlying assumptions and understand its limitations when analyzing data.
+
+
+### Statistical Model
 
 - A basic linear regression is a statistical model that represent the relationship between predictor variables ***X***<sub>i</sub> with a response variable ***Y***. 
 
